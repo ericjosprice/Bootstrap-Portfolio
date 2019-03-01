@@ -52,7 +52,18 @@ footer {
     border-top:5px solid #4aaaa5;
     padding:10px;
 }
+/* portfolio images: to adjust the card title, i have added a class of images parent so that i can position banner relative to the image div */
 
+.imageParent {
+    position:relative;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 
 /* 
 instructions
